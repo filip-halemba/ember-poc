@@ -1,2 +1,4 @@
-{{user-container user=model}}
-<p>Fullname: {{fullName}}</p>
+<h1>User list</h1>
+{{#each model as |user|}}
+  {{user-container user=user}}
+{{/each}}
