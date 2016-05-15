@@ -5,5 +5,10 @@
 
     Setting `disableAnalytics` to true will prevent any data from being sent.
   */
-  "disableAnalytics": false
+  "disableAnalytics": false,
+  /**
+      Generowanie routes, controllers etc w strukturze domenowej
+      http://www.programwitherik.com/ember-pods/
+    */
+  "usePods": true
 }
